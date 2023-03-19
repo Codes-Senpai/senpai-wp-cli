@@ -148,11 +148,16 @@ NPM           | 7.0.0
     $ npm -v
 ```
 
-## Installation
+## Installing senpai wp cli
 
 ```bash
     cd ~
     git clone git@github.com:Codes-Senpai/senpai-wp-cli.git
+    cp ~/senpai-wp-cli/wp-scripts/example.config.sh ~/senpai-wp-cli/wp-scripts/config.sh
+    nano ~/senpai-wp-cli/wp-scripts/config.sh
+    #Set global settings to your system configurations
+    nano  ~/senpai-wp-cli/wp-scripts/install-wp.sh
+    #Change default installed plugins from WP directory or local plugins at PT directory
     echo '[ -f ~/senpai-wp-cli/bootloader.sh ] && . ~/senpai-wp-cli/bootloader.sh' >> ~/.bashrc 
     source ~/.bashrc
 ```

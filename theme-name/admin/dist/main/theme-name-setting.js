@@ -1,0 +1,2 @@
+/*! For license information please see theme-name-setting.js.LICENSE.txt */
+(()=>{var __webpack_modules__={"./src/setting.js":()=>{eval("const {\n  __,\n  _x,\n  _n,\n  _nx\n} = wp.i18n;\njQuery(document).ready(function ($) {\n  console.log('setting ready');\n});\n\n//# sourceURL=webpack://theme-name/./src/setting.js?")}},__webpack_exports__={};__webpack_modules__["./src/setting.js"]()})();
