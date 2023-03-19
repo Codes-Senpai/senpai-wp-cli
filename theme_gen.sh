@@ -22,13 +22,13 @@ if [[ $PWD != *wp-content/themes ]]; then
   exit 1;
 fi
 
-theme_name=$(whiptail --inputbox --backtitle "SENPAI-CODES CLI" "Theme Name?" 8 39 --title "SenpaiCodes Theme Generate" 3>&1 1>&2 2>&3)
-theme_slug=$(whiptail --inputbox --backtitle "SENPAI-CODES CLI" "Theme Slug? (all lower-case with - seperator)" 8 39 --title "SenpaiCodes Theme Generate" 3>&1 1>&2 2>&3)
-theme_uri=$(whiptail --inputbox --backtitle "SENPAI-CODES CLI" "Theme Uri?" 8 39 --title "SenpaiCodes Theme Generate" 3>&1 1>&2 2>&3)
-theme_short_desc=$(whiptail --inputbox --backtitle "SENPAI-CODES CLI" "Theme short description?" 8 69 --title "SenpaiCodes Theme Generate" 3>&1 1>&2 2>&3)
-theme_author_name=$(whiptail --inputbox --backtitle "SENPAI-CODES CLI" "Theme Author Name?" 8 39 --title "SenpaiCodes Theme Generate" 3>&1 1>&2 2>&3)
-theme_author_email=$(whiptail --inputbox --backtitle "SENPAI-CODES CLI" "Theme Author Email?" 8 39 --title "SenpaiCodes Theme Generate" 3>&1 1>&2 2>&3)
-theme_author_uri=$(whiptail --inputbox --backtitle "SENPAI-CODES CLI" "Theme Author Uri?" 8 39 --title "SenpaiCodes Theme Generate" 3>&1 1>&2 2>&3)
+theme_name=$(whiptail --inputbox --backtitle "SENPAI.CODES 🦉" "Theme Name?" 8 39 --title "SenpaiCodes Theme Generate" 3>&1 1>&2 2>&3)
+theme_slug=$(whiptail --inputbox --backtitle "SENPAI.CODES 🦉" "Theme Slug? (all lower-case with - seperator)" 8 39 --title "SenpaiCodes Theme Generate" 3>&1 1>&2 2>&3)
+theme_uri=$(whiptail --inputbox --backtitle "SENPAI.CODES 🦉" "Theme Uri?" 8 39 --title "SenpaiCodes Theme Generate" 3>&1 1>&2 2>&3)
+theme_short_desc=$(whiptail --inputbox --backtitle "SENPAI.CODES 🦉" "Theme short description?" 8 69 --title "SenpaiCodes Theme Generate" 3>&1 1>&2 2>&3)
+theme_author_name=$(whiptail --inputbox --backtitle "SENPAI.CODES 🦉" "Theme Author Name?" 8 39 --title "SenpaiCodes Theme Generate" 3>&1 1>&2 2>&3)
+theme_author_email=$(whiptail --inputbox --backtitle "SENPAI.CODES 🦉" "Theme Author Email?" 8 39 --title "SenpaiCodes Theme Generate" 3>&1 1>&2 2>&3)
+theme_author_uri=$(whiptail --inputbox --backtitle "SENPAI.CODES 🦉" "Theme Author Uri?" 8 39 --title "SenpaiCodes Theme Generate" 3>&1 1>&2 2>&3)
 
 clear
 

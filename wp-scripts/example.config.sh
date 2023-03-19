@@ -12,9 +12,12 @@ SITE_PATH="/var/www/html/"
 SCRIPT_PATH="~/senpai-wp-cli/wp-scripts"
 
 # Base URL (sites will be setup as subdirectories)
+#BASE_URL="http://localhost"
 BASE_URL="apache-host-base-here"
 
 # Database information
 DB_USER="db-user-here"
 DB_PASS="db-pass-here"
+
+#DB_HOST="localhost"
 DB_HOST="db-host-here"
