@@ -89,9 +89,9 @@ cd $theme_slug
 
 echo -e "\033[40m Setup Composer dependencies... \033[0;37m"
 
-composer -q init --name "wp-senpai/$theme_slug" --author "$theme_author_name <$theme_author_email>" --description "Composer $theme_short_desc"  --repository "{\"type\": \"composer\",\"url\": \"https://packages.senpai.codes\"}"
+composer -q init --name "wp-senpai/$theme_slug" --author "$theme_author_name <$theme_author_email>" --description "Composer $theme_short_desc" 
 composer -q install
-composer -q require "senpai/wp-senpai:dev-main"
+composer -q require senpai/wp-senpai
 draw_progress_bar 50
 
 #cd admin 
